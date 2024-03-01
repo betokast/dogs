@@ -2,6 +2,6 @@ import React from 'react'
 
 export const LoginCreate = () => {
   return (
-    <div>LoginCreate</div>
+    <div>Página Criar Login</div>
   )
 }
