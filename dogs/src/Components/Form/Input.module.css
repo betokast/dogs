@@ -1,0 +1,38 @@
+.wraper {
+  margin-bottom: 1rem;
+}
+
+.input {
+  border: 1px solid var(--type-color-light-grey);
+    display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: .8rem;
+  border-radius: .4rem;
+  background-color: var(--type-color-light-grey);
+  transition: .2s;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  border-color: var(--type-color-dark-yellow);
+  box-shadow: 0 0 0 3px var(--type-color-light-yellow);
+}
+
+.input:focus{
+  background-color: var(--type-color-white);
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: .5rem;
+}
+
+.error {
+  color: var(--type-color-error);
+  font-size: .875rem;
+  margin-top: .25rem;
+}
