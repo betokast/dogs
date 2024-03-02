@@ -3,6 +3,13 @@
 }
 :root {
   --type-color-basic: #333;
+  --type-color-yellow: #fb1;
+  --type-color-light-yellow: #fea;
+  --type-color-dark-brown: #764701;
+  --type-color-light-grey: #eee;
+  --type-color-white: #fff;
+  --type-color-error: #f31;
+
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: 'Spectral', Georgia;
 }
